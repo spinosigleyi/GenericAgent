@@ -21,7 +21,7 @@ Every time GenericAgent solves a new task, it automatically crystallizes the exe
 
 > **🤖 Self-Bootstrap Proof** — Everything in this repository, from installing Git and running `git init` to every commit message, was completed autonomously by GenericAgent. The author never opened a terminal once.
 
-> **📝 Personal Note** — I'm using this fork primarily to experiment with the self-evolution mechanism and test skill accumulation over time with Claude as the backend model.
+> **📝 Personal Note** — I'm using this fork primarily to experiment with the self-evolution mechanism and test skill accumulation over time with Claude as the backend model. I'm also keeping notes on which task types tend to produce the most reusable skills.
 
 ## 📋 Core Features
 - **Self-Evolving**: Automatically crystallizes each task into an skill. Capabilities grow with every use, forming your personal skill tree.
@@ -33,9 +33,4 @@ Every time GenericAgent solves a new task, it automatically crystallizes the exe
 
 ## 🧬 Self-Evolution Mechanism
 
-This is what fundamentally distinguishes GenericAgent from every other agent framework.
-
-```
-[New Task] --> [Autonomous Exploration] (install deps, write scripts, debug & verify) -->
-[Crystallize Execu
-```
+This is what fundamentally
