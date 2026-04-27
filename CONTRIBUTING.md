@@ -48,3 +48,8 @@ If your skill only makes sense for a specific workflow, it's a marketplace candi
 > **Personal fork note:** I'm using this primarily for learning and local experimentation. PRs from this fork are unlikely — feel free to ignore it.
 >
 > **Local experiments in progress:** testing custom skills for home automation and CLI task scheduling.
+>
+> **Personal skill wishlist (for my own reference):**
+> - [ ] Pomodoro / focus timer skill
+> - [ ] Local git repo summarizer
+> - [ ] Weather-based reminder triggers
