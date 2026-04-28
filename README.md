@@ -21,11 +21,11 @@ Every time GenericAgent solves a new task, it automatically crystallizes the exe
 
 > **🤖 Self-Bootstrap Proof** — Everything in this repository, from installing Git and running `git init` to every commit message, was completed autonomously by GenericAgent. The author never opened a terminal once.
 
-> **📝 Personal Note** — I'm using this fork primarily to experiment with the self-evolution mechanism and test skill accumulation over time with Claude as the backend model. I'm also keeping notes on which task types tend to produce the most reusable skills. So far, file organization and web research tasks seem to yield the highest-quality reusable skills.
+> **📝 Personal Note** — I'm using this fork primarily to experiment with the self-evolution mechanism and test skill accumulation over time with Claude as the backend model. I'm also keeping notes on which task types tend to produce the most reusable skills. So far, file organization and web research tasks seem to yield the highest-quality reusable skills. I've also noticed that breaking tasks into smaller sub-tasks before running them tends to produce more granular, reusable skills compared to submitting one large task.
 
 ## 📋 Core Features
 - **Self-Evolving**: Automatically crystallizes each task into an skill. Capabilities grow with every use, forming your personal skill tree.
 - **Minimal Architecture**: ~3K lines of core code. Agent Loop is ~100 lines. No complex dependencies, zero deployment overhead.
 - **Strong Execution**: Injects into a real browser (preserving login sessions). 9 atomic tools take direct control of the system.
 - **High Compatibility**: Supports Claude / Gemini / Kimi / MiniMax and other major models. Cross-platform.
-- **Token Efficient**: <30K context window — a fraction of the 200K–1M other agents consume. Layered memory ensures the right knowledge is always in scope. Less noise, fewer hallucinations, higher success rate — a
+- **Token Efficient**: <30K context window — a fraction of the 200K–1M other agents consume. Layered memory ensur
